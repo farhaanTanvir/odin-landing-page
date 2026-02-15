@@ -101,3 +101,111 @@ button {
     font-size: 0.91rem;
     letter-spacing: 0.7px;
 }
+
+.frame {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: -6px
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.box p {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    margin-bottom: 12px;
+}
+
+
+
+/* The outer section provides the padding and background color */
+.testimonial-section {
+    background-color: #e5e7eb;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The container limits the width so the text doesn't stretch too far */
+
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    /* Light weight for that thin look */
+    line-height: 1.2;
+    padding: 30px
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+    /* Pushes the name to the right side */
+    margin-top: -50px;
+    margin-right: 40px;
+
+}
+
+.c2a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2a-container {
+    background-color: rgb(69, 98, 223);
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.c2a-container p {
+    margin-top: 2px;
+    font-size: 0.97rem;
+    margin-left: 7px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 1.4rem
+}
+
+.text {
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.c2a-container button {
+    margin-right: 50px;
+    transform: scale(1.1);
+    border: 1.7px solid rgb(255, 255, 255);
+}
